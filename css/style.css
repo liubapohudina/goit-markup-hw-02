@@ -2,3 +2,20 @@
 .contact:focus {
     color: #006400;
 }
+.main-page {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+}
+.page-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 1.07;
+}
+.section-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
