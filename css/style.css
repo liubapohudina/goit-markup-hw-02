@@ -21,7 +21,7 @@ ul {
 }
 .logo-web {
     color: var(--logo-color);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -31,7 +31,7 @@ text-transform: uppercase;
 }
 .logo-studio {
     color: var(--primary-nav-color);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -41,7 +41,7 @@ text-transform: uppercase;
 }
 .logo-studio-footer {
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: "Raleway";
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -50,9 +50,10 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 .link {
-    text-decoration: none;
+   
 }
 .list .link {
+    text-decoration: none;
     color: var(--primary-nav-color);
 font-size: 16px;
 font-style: normal;
@@ -60,37 +61,23 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
-.list .link:active
- {
-    color: var(--active-nav-color);
-letter-spacing: 0.32px;
-}
-
-.list-contacts .link {
-    color: var( --primary-color-slate);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.32px;
-
-}
-.list-contacts .link:hover,
-.list-contacts .link:focus {
+.link:hover,
+.link:focus {
     color: var(--hover-link-color);
     text-decoration: none;
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
 }
+
 .section-one .button {
     color:#FFF;
     cursor: pointer;
 background: var( --primary-list-button-color);
-font-family: Roboto;
+font-family: "Roboto";
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -105,7 +92,7 @@ background: var(--active-nav-color);
 .section-one {
     background-color: #2E2F42;
     text-align: center;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     }
     .page-title {
         font-family: "Roboto", sans-serif;
@@ -129,7 +116,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize;
 }
 .section-title .title{
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
