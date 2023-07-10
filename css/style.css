@@ -21,22 +21,22 @@ ul {
 }
 .logo-web {
     color: var(--logo-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-studio {
     color: var(--primary-nav-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .logo-studio-footer {
@@ -52,7 +52,7 @@ text-transform: uppercase;
 .link {
     text-decoration: none;
 }
-.list-navigation .link {
+.list .link {
     color: var(--primary-nav-color);
 font-size: 16px;
 font-style: normal;
@@ -60,7 +60,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
-.list-navigation .link:active
+.list .link:active
  {
     color: var(--active-nav-color);
 letter-spacing: 0.32px;
@@ -89,9 +89,7 @@ letter-spacing: 0.32px;
 .section-one .button {
     color:#FFF;
     cursor: pointer;
-    border-radius: 4px;
 background: var( --primary-list-button-color);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 font-family: Roboto;
 font-size: 16px;
 font-style: normal;
@@ -107,12 +105,13 @@ background: var(--active-nav-color);
 .section-one {
     background-color: #2E2F42;
     text-align: center;
+    font-family: Roboto, sans-serif;
     }
     .page-title {
         font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
-        letter-spacing: 2%;
+        letter-spacing: 0.02em;
         line-height: 1.07;
         color: #FFFFFF;
     }
