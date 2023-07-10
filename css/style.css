@@ -25,6 +25,7 @@ font-style: normal;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .logo-studio {
     color: var(--primary-nav-color);
@@ -34,6 +35,17 @@ font-style: normal;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+.logo-studio-footer {
+    color: #F4F4FD;
+    font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.54px; 
+text-transform: uppercase;
 }
 .link {
     text-decoration: none;
@@ -137,6 +149,12 @@ letter-spacing: 0.32px;
 .section-title .list-team: {
     background: #FFF;
     
+}
+.main-page .footer {
+    background: var(--primary-nav-color);
+}
+.footer .title-text{
+    color: #F4F4FD;
 }
 
 
