@@ -121,7 +121,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.section-title-team {
+.section-title-team .title-team {
     background: #F4F4FD;
     color: var(--primary-text-color);
     text-align: center;
@@ -133,7 +133,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.section-title-team .list {
+.section-title-team .title-team .list {
     background-color: var(--background-color-white);
 }
 .section-title-team .title {
@@ -152,7 +152,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 .footer {
     background-color: var(--backgroung-color-onesect);}
