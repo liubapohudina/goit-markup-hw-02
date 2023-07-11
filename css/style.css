@@ -135,7 +135,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.section-title-team  .list {
+.section-team-item {
     background-color: var(--background-color-white);
 }
 .section-title-team .title {
