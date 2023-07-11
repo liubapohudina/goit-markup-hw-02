@@ -44,6 +44,7 @@ letter-spacing: 0.02em;
 .list .link:focus,
 .list .link:hover {
     color: var(--active-text-color);
+    
 }
 .contacts {
     font-style: normal;
@@ -88,7 +89,8 @@ letter-spacing: 0.04em;
 }
 .section .button:hover,
 .section .button:focus {
-    color: var(--active-text-color);
+    color: var(--background-color-white);
+    background-color: var(--active-text-color);
 }
 .section-title .title {
     color: var(--primary-text-color);
@@ -106,7 +108,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 .section-title {
     color: var (--primary-text-color);
