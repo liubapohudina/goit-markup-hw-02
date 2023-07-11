@@ -121,8 +121,10 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
+.section-title-team {
+    background-color: var(--color-text-footer);
+}
 .section-title-team .title-team {
-    background: #F4F4FD;
     color: var(--primary-text-color);
     text-align: center;
 font-family: var(--primary-font);
@@ -133,7 +135,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-.section-title-team .title-team .list {
+.section-title-team  .list {
     background-color: var(--background-color-white);
 }
 .section-title-team .title {
