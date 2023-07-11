@@ -197,7 +197,7 @@ letter-spacing: 0.64px;
     background: var(--active-text-color);
     text-align: center;
 }
-.list .title {
+.section-portfolio .list .title {
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -206,8 +206,8 @@ letter-spacing: 0.64px;
     line-height: 1.2;
     letter-spacing: 0.02em; 
 }
-.list .title-text {
-    color: var (--primary-color-slate);
+.section-portfolio .list .title-text {
+    color: var(--primary-color-slate);
     font-family: var(--primary-font);
 font-size: 16px;
 font-style: normal;
