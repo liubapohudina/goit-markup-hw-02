@@ -92,7 +92,7 @@ letter-spacing: 0.04em;
     color: var(--background-color-white);
     background-color: var(--active-text-color);
 }
-.section-title .title {
+.section-offer  .title {
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -101,8 +101,8 @@ letter-spacing: 0.04em;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.section-title .title-text{
-    color: var (--primary-color-slate);
+.section-offer .title-text{
+    color: var(--primary-color-slate);
     font-family: var(--primary-font);
 font-size: 16px;
 font-style: normal;
@@ -110,7 +110,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.section-title {
+.section-offer .section-title {
     color: var(--primary-text-color);
     text-align: center;
 font-family: var(--primary-font);
@@ -120,6 +120,17 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+}
+.section-doing .section-title {
+    color: var(--primary-text-color);
+    text-align: center;
+font-family: var(--primary-font);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize
 }
 .section-title-team {
     background-color: var(--color-text-footer);
