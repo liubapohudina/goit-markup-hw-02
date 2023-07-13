@@ -27,16 +27,16 @@ text-decoration: none;
 }
 .main-page .logo-studio {
     color: var( --primary-text-color);
+
 }
 .list{
     list-style: none;
 }
-.list .link {
+.main-page .list .link {
     font-family: var(--primary-font);
     color: var(--primary-text-color);
     text-decoration: none;
     font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -52,9 +52,8 @@ letter-spacing: 0.02em;
 .contacts .list .link {
     font-family: var(--primary-font);
     color: var(--primary-color-slate);
+    text-transform: none;
     font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -69,7 +68,6 @@ letter-spacing: 0.02em;
 }
 .page-title {
     font-family: "Roboto", sans-serif;
-    font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
     line-height: 1.07;
@@ -82,7 +80,6 @@ letter-spacing: 0.02em;
 background: var(--color-logo);
 font-family: "Roboto", sans-serif;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -96,7 +93,6 @@ letter-spacing: 0.04em;
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -105,8 +101,6 @@ letter-spacing: 0.04em;
     color: var(--primary-color-slate);
     font-family: var(--primary-font);
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -116,8 +110,6 @@ letter-spacing: 0.02em;
     text-align: center;
 font-family: var(--primary-font);
 font-size: 36px;
-font-style: normal;
-font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -130,8 +122,6 @@ text-transform: capitalize;
     text-align: center;
 font-family: var(--primary-font);
 font-size: 36px;
-font-style: normal;
-font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -143,7 +133,6 @@ text-transform: capitalize;
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -152,8 +141,6 @@ text-transform: capitalize;
     color: var (--primary-color-slate);
     font-family: var(--primary-font);
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -177,7 +164,6 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    font-weight: 400;
 }
 .list .button {
     cursor: pointer;
@@ -187,7 +173,6 @@ text-decoration: none;
    cursor: pointer;
 font-family: var(--primary-font);
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
@@ -201,8 +186,8 @@ letter-spacing: 0.64px;
 .section-portfolio .list .title {
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
+    text-transform: none;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em; 
@@ -210,9 +195,8 @@ letter-spacing: 0.64px;
 .section-portfolio .list .title-text {
     color: var(--primary-color-slate);
     font-family: var(--primary-font);
+    text-transform: none;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
